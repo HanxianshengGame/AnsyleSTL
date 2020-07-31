@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/AnalyseSTL/MyVector.cpp
+MyVector.h
+H:/AnalyseSTL/MyVector.h
+
+H:/AnalyseSTL/MyVector.h
+memory
+-
+algorithm
+-
+
+H:/AnalyseSTL/main.cpp
+iostream
+-
+MyVector.h
+H:/AnalyseSTL/MyVector.h
+list
+-
+
